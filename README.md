@@ -1,5 +1,5 @@
 # Alarm Sistemi Yazılımı
-Projemde genel olarak kameradan okuduğum veri üzeriden anlık resimler aldım. Bu resimleri python dilinin OpenCV kütüphanesini kullanarak bazı işlemlere tabi tuttum. Bu işlemlerin temelinde arka planı silmek yatıyor. Bu yöntem ile elde edilen resimdeki eşik değeri ile kameranın başlangıçta hesaplanan eşik değeri arasında karşılaştırma yaparak hareket olup olmadığını tespit etmeye çalıştım. Hareket olduğu tespit edildiği zaman bunları kayıt altına alıp kameradan yeni değerler okuyarak sürekli bu işlemlere tabi tutturdum.
+Bu projede genel olarak kameradan okunan veri üzeriden anlık resimler alınır. Bu resimler python dilinin OpenCV kütüphanesi kullanılarak bazı işlemlere tabi tutulur. Bu işlemlerin temelinde arka planı silmek yatıyor. Bu yöntem ile elde edilen resimdeki eşik değeri ile kameranın başlangıçta hesaplanan eşik değeri arasında karşılaştırma yapılarak hareket olup olmadığı tespit edilmeye çalışılır. Hareket olduğu tespit edildiği zaman bunları kayıt altına alıp kameradan yeni değerler okuyarak sürekli bu işlemler tekrar edilir.
 
 Kamera eşik değeri hesaplayarak karıncalanma olan kameralara optimize etmeyi hedefledim.
 
